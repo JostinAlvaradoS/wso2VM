@@ -1,0 +1,572 @@
+TID: [2025-01-22 22:42:12,920]  INFO {org.wso2.config.mapper.ConfigParser} - Initializing configurations with deployment configurations {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.1.0-28-amd64, amd64
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-17-openjdk-amd64
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 17.0.13
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 17.0.13+11-Debian-2deb12u1,Debian
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/chostim/wso2/wso2am-4.4.0
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/chostim/wso2/wso2am-4.4.0/tmp
+TID: [] [] [2025-01-22 22:42:18,595]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : chostim, en-US, America/Guayaquil
+TID: [] [] [2025-01-22 22:42:18,918]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} - 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+TID: [] [] [2025-01-22 22:42:19,261]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2025-01-22 22:42:21,105]  INFO {org.wso2.carbon.apimgt.eventing.hub.internal.ServiceComponent} - Eventing Hub ServiceComponent is activated
+TID: [] [] [2025-01-22 22:42:21,754]  WARN {org.apache.tomcat.util.digester.Digester} - Match [Server/Service/Engine/Host/Valve] failed to set property [maxDays] to []
+TID: [] [] [2025-01-22 22:42:22,429]  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [] [] [2025-01-22 22:42:22,612]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - Binary Data Receiver server activated
+TID: [] [] [2025-01-22 22:42:22,624]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} - Successfully deployed Agent Server 
+TID: [] [] [2025-01-22 22:42:23,049]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 103ms
+TID: [] [] [2025-01-22 22:42:23,103]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 4ms
+TID: [] [] [2025-01-22 22:42:23,103]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 4ms
+TID: [] [] [2025-01-22 22:42:23,159]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [] [] [2025-01-22 22:42:23,159]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [] [] [2025-01-22 22:42:23,383]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-01-22 22:42:23,549]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+TID: [] [] [2025-01-22 22:42:23,554]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} - Started JMX reporter for Metrics
+TID: [] [] [2025-01-22 22:42:26,751]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-01-22 22:42:27,054]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-01-22 22:42:28,184]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2025-01-22 22:42:28,184]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2025-01-22 22:42:28,306]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WSS Sender started
+TID: [] [] [2025-01-22 22:42:28,311]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Initializing Pass-through HTTP/S Sender...
+TID: [] [] [2025-01-22 22:42:28,350]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Pass-through HTTP Sender started...
+TID: [] [] [2025-01-22 22:42:28,351]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Initializing Pass-through HTTP/S Sender...
+TID: [] [] [2025-01-22 22:42:28,410]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - customSSLProfiles configuration is loaded from path: /home/chostim/wso2/wso2am-4.4.0/repository/resources/security/sslprofiles.xml
+TID: [] [] [2025-01-22 22:42:28,410]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Loading custom SSL profiles for the HTTPS sender
+TID: [] [] [2025-01-22 22:42:28,449]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Custom SSL profiles initialized for 1 servers
+TID: [] [] [2025-01-22 22:42:28,449]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Pass-through HTTPS Sender started...
+TID: [] [] [2025-01-22 22:42:28,452]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WS Sender started
+TID: [] [] [2025-01-22 22:42:28,464]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Initializing Pass-through HTTP/S Listener...
+TID: [] [] [2025-01-22 22:42:28,482]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Initializing Pass-through HTTP/S Listener...
+TID: [] [] [2025-01-22 22:42:28,522]  INFO {org.apache.synapse.transport.nhttp.config.ServerConnFactoryBuilder} - SSLProfile configuration is loaded from path: /home/chostim/wso2/wso2am-4.4.0/repository/resources/security/listenerprofiles.xml
+TID: [] [] [2025-01-22 22:42:28,759]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AdminAdvisoryManagementService {super-tenant}
+TID: [] [] [2025-01-22 22:42:29,438]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant}
+TID: [] [] [2025-01-22 22:42:30,836]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+TID: [] [] [2025-01-22 22:42:30,837]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+TID: [] [] [2025-01-22 22:42:30,837]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+TID: [] [] [2025-01-22 22:42:31,481]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} - We don't support method overloading. Ignoring [addRemoteServerConfig]
+TID: [] [] [2025-01-22 22:42:31,481]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} - We don't support method overloading. Ignoring [resetRemoteServerConfig]
+TID: [] [] [2025-01-22 22:42:33,130]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/
+TID: [] [] [2025-01-22 22:42:33,133]  INFO {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder} - Kafka input event adaptor waiting for dependent configurations to load
+TID: [] [] [2025-01-22 22:42:33,144]  INFO {org.wso2.carbon.andes.core.internal.ds.QueueManagerServiceDS} - Successfully created the queue manager service
+TID: [] [] [2025-01-22 22:42:33,148]  INFO {org.wso2.carbon.andes.core.internal.ds.SubscriptionManagerServiceDS} - Successfully created the subscription manager service
+TID: [] [] [2025-01-22 22:42:33,213]  INFO {org.wso2.carbon.apimgt.persistence.internal.PersistenceManagerComponent} - Activating PersistenceManagerComponent 
+TID: [] [] [2025-01-22 22:42:33,233]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-01-22 22:42:33,246]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-01-22 22:42:34,436]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} - XACML policy schema loaded successfully.
+TID: [] [] [2025-01-22 22:42:34,574]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+TID: [] [] [2025-01-22 22:42:34,578]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager
+TID: [] [] [2025-01-22 22:42:34,624]  WARN {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} - Templates directory not found at /home/chostim/wso2/wso2am-4.4.0/repository/resources/identity/authntemplates
+TID: [] [] [2025-01-22 22:42:34,934]  WARN {org.wso2.carbon.identity.auth.valve.internal.AuthenticationValveServiceComponent} - File invalid_tenant_domain_response.html not found. The default content will be used as the error page content.
+TID: [] [] [2025-01-22 22:42:34,980]  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+Please refer to the WSO2 security advisory: https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2023/WSO2-2023-2617/
+#############################################################################
+
+TID: [] [] [2025-01-22 22:42:34,995]  INFO {org.wso2.carbon.identity.organization.management.tenant.association.internal.TenantAssociationServiceComponent} - Organization management related TenantAssociationManagementListener registered successfully.
+TID: [] [] [2025-01-22 22:42:35,439]  INFO {org.wso2.carbon.identity.local.auth.api.core.internal.AuthAPIServiceComponent} - Auth API Service Component  is activated.
+TID: [] [] [2025-01-22 22:42:36,241]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy jsonValidator_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,247]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy opaPolicy_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,250]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy apkRemoveHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,254]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy removeHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,256]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy xmlToJson_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,259]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy jsonFault_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,262]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy debugJsonFault_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,266]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy addHeader_v2 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,269]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy setToHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,272]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy addLogMessage_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,276]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy rewriteResourcePath_v3 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,279]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy applyAcceptHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,282]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy debugRequestFlow_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,285]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy preserveAcceptHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,288]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy apkAddHeader_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,291]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy apkCallInterceptorService_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,293]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy backEndJWT_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,297]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy addQueryParam_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,299]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy jsonToXML_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,302]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy revokeOneTimeToken_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,305]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy apkRedirectRequest_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,308]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy changeHTTPMethod_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,310]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy apkMirrorRequest_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,313]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy debugResponseFlow_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,315]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy disableChunking_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,319]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy jwtClaimBasedAccessValidator_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,322]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy regexPolicy_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,324]  INFO {org.wso2.carbon.apimgt.impl.utils.APIUtil} - Common operation policy xmlValidator_v1 was added to the organization carbon.super successfully
+TID: [] [] [2025-01-22 22:42:36,424]  INFO {org.wso2.carbon.apimgt.common.jms.factory.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [] [] [2025-01-22 22:42:36,494]  INFO {org.wso2.carbon.apimgt.common.jms.factory.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [] [] [2025-01-22 22:42:36,578]  INFO {org.wso2.carbon.apimgt.impl.dao.CorrelationConfigDAO} - Correlation Components [http, jdbc, ldap, synapse, method-calls]
+TID: [] [] [2025-01-22 22:42:36,657]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-01-22 22:42:36,657]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-01-22 22:42:37,691]  WARN {org.wso2.carbon.identity.event.internal.IdentityEventServiceComponent} - Properties for OrganizationCreationHandler is not configured. This event handler will not be activated
+TID: [] [] [2025-01-22 22:42:37,720]  WARN {org.wso2.carbon.identity.application.authentication.framework.internal.FrameworkServiceComponent} - Adaptive authentication is disabled.
+TID: [] [] [2025-01-22 22:42:37,813]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-01-22 22:42:39,709]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Starting ESB...
+TID: [] [] [2025-01-22 22:42:39,736]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Initializing Apache Synapse...
+TID: [] [] [2025-01-22 22:42:39,741]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/chostim/wso2/wso2am-4.4.0/.
+TID: [] [] [2025-01-22 22:42:39,741]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/chostim/wso2/wso2am-4.4.0/././repository/deployment/server/synapse-configs/default
+TID: [] [] [2025-01-22 22:42:39,741]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : localhost
+TID: [] [] [2025-01-22 22:42:39,761]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [] [] [2025-01-22 22:42:39,784]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Wed Jan 22 22:42:39 ECT 2025
+TID: [] [] [2025-01-22 22:42:39,792]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [] [] [2025-01-22 22:42:39,794]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [] [] [2025-01-22 22:42:39,794]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [] [] [2025-01-22 22:42:39,914]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _backend_failure_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,924]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,931]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _api_blocked_sequence_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,955]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : webhooksFaultSequence was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,956]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,959]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _build_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,968]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:39,979]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _token_fault_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,002]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : dispatchSeq was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,010]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,018]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _opa_policy_failure_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,032]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,033]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : outDispatchSeq was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,033]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,041]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,062]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,064]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,065]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,067]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : WebSocketInboundEndpoint was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,067]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : SecureWebSocketEP was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,068]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : WebhookServer was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,069]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : SecureWebhookServer was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,069]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [] [] [2025-01-22 22:42:40,070]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,070]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:42:40,111]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from file at system defined location: /home/chostim/wso2/wso2am-4.4.0/repository/conf/sequence-observers.xml
+TID: [] [] [2025-01-22 22:42:40,130]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [] [] [2025-01-22 22:42:40,195]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: echo {super-tenant}
+TID: [] [] [2025-01-22 22:42:40,218]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: Version {super-tenant}
+TID: [] [] [2025-01-22 22:42:40,223]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :EmailPublisher.xml, Stream validation exception : Stream id_gov_notify_stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,224]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :HTTP-recommendationEventPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.recommendation.event.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,225]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :asyncWebhooksEventPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.webhooks.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,226]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :asyncWebhooksEventPublisher2.xml, Stream validation exception : Stream org.wso2.apimgt.webhooks.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,226]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :asyncWebhooksEventPublisher_1.0.0.xml, Stream validation exception : Stream org.wso2.apimgt.webhooks.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,227]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :asyncWebhooksEventPublisher_1.0.0_2.xml, Stream validation exception : Stream org.wso2.apimgt.webhooks.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,228]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :blockingEventJMSPublisher.xml, Stream validation exception : Stream org.wso2.blocking.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,228]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :cacheInvalidationEventJMSPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.cache.invalidation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,229]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :globalCacheInvalidationJMSPublisher.xml, Stream validation exception : Stream cache.invalidation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,230]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :jmsEventPublisher.xml, Stream validation exception : Stream org.wso2.throttle.globalThrottle.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,231]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :jmsEventPublisher2.xml, Stream validation exception : Stream org.wso2.throttle.globalThrottle.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,231]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :jmsEventPublisher_1.10.0.xml, Stream validation exception : Stream org.wso2.throttle.globalThrottle.stream:1.1.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,232]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :jmsEventPublisher_1.10.0_2.xml, Stream validation exception : Stream org.wso2.throttle.globalThrottle.stream:1.1.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,233]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :keymgtEventJMSEventPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.keymgt.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,233]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :notificationEventJMSPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.notification.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,234]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :tokenRevokeEventJMSPublisher.xml, Stream validation exception : Stream org.wso2.apimgt.token.revocation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,235]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :tokenRevokeEventJMSPublisher_2.xml, Stream validation exception : Stream org.wso2.apimgt.token.revocation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,239]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: blockingWso2EventReceiver.xml, Stream validation exception: Stream org.wso2.blocking.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,240]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: cacheInvalidationRequestReceiver.xml, Stream validation exception: Stream cache.invalidation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,240]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: cacheInvalidationWso2EventReceiver.xml, Stream validation exception: Stream org.wso2.apimgt.cache.invalidation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,241]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: keyMgtWso2EventReceiver.xml, Stream validation exception: Stream org.wso2.apimgt.keymgt.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,241]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: notificationsWSO2EventReceiver.xml, Stream validation exception: Stream org.wso2.apimgt.notification.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,242]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: recommendationWso2EventReceiver.xml, Stream validation exception: Stream org.wso2.apimgt.recommendation.event.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,243]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: throttleEventReceiver.xml, Stream validation exception: Stream org.wso2.throttle.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,243]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: throttleWSO2EventReceiver.xml, Stream validation exception: Stream org.wso2.throttle.request.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,244]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event receiver deployment held back and in inactive state: tokenRevocationWso2EventReceiver.xml, Stream validation exception: Stream org.wso2.apimgt.token.revocation.stream:1.0.0 does not exist
+TID: [] [] [2025-01-22 22:42:40,453]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : globalCacheInvalidationJMSPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,456]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,470]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : globalCacheInvalidationJMSPublisher
+TID: [] [] [2025-01-22 22:42:40,493]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: cacheInvalidationRequestReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,498]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver cacheInvalidationRequestReceiver
+TID: [] [] [2025-01-22 22:42:40,498]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,498]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: cacheInvalidationRequestReceiver
+TID: [] [] [2025-01-22 22:42:40,498]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,499]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : EmailPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,502]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,503]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : EmailPublisher
+TID: [] [] [2025-01-22 22:42:40,503]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,504]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : cacheInvalidationEventJMSPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,505]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : cacheInvalidationJMSPublisher
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: cacheInvalidationWso2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver cacheInvalidationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: cacheInvalidationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,506]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,507]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : keymgtEventJMSEventPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,508]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,508]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : keymgtEventJMSEventPublisher
+TID: [] [] [2025-01-22 22:42:40,508]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: keyMgtWso2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,509]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver keyMgtWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,509]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,509]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: keyMgtWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,509]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,510]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : notificationEventJMSPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : notificationJMSPublisher
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: notificationsWSO2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver notificationsWSO2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: notificationsWSO2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,511]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.notification.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,512]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : HTTP-recommendationEventPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,513]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,515]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : HTTP-recommendationEventPublisher
+TID: [] [] [2025-01-22 22:42:40,515]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: recommendationWso2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,516]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver recommendationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,516]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,516]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: recommendationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,516]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,517]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,518]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,518]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher
+TID: [] [] [2025-01-22 22:42:40,518]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher_2.xml
+TID: [] [] [2025-01-22 22:42:40,519]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,519]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher2
+TID: [] [] [2025-01-22 22:42:40,519]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: tokenRevocationWso2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,520]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver tokenRevocationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,520]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,520]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: tokenRevocationWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,520]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,521]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,522]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.webhooks.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,522]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : asyncWebhooksEventPublisher
+TID: [] [] [2025-01-22 22:42:40,522]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher2.xml
+TID: [] [] [2025-01-22 22:42:40,523]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.webhooks.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,523]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : asyncWebhooksEventPublisher2
+TID: [] [] [2025-01-22 22:42:40,523]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher_1.0.0.xml
+TID: [] [] [2025-01-22 22:42:40,524]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.webhooks.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,524]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : asyncWebhooksEventPublisher-1.0.0
+TID: [] [] [2025-01-22 22:42:40,524]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher_1.0.0_2.xml
+TID: [] [] [2025-01-22 22:42:40,525]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.webhooks.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,525]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : asyncWebhooksEventPublisher-1.0.0-2
+TID: [] [] [2025-01-22 22:42:40,525]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.webhooks.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,525]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : blockingEventJMSPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,526]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,526]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : blockingEventJMSPublisher
+TID: [] [] [2025-01-22 22:42:40,526]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: blockingWso2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:40,527]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver blockingWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,527]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,527]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: blockingWso2EventReceiver
+TID: [] [] [2025-01-22 22:42:40,527]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.blocking.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,527]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.botDetectionData.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,528]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher.xml
+TID: [] [] [2025-01-22 22:42:40,529]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,529]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher
+TID: [] [] [2025-01-22 22:42:40,529]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher2.xml
+TID: [] [] [2025-01-22 22:42:40,529]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,530]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher2
+TID: [] [] [2025-01-22 22:42:40,547]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_10PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,556]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_20PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,564]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_50PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,572]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_10KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:42:40,580]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_20KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:42:40,593]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_50KPerMin_defualt.siddhiql
+TID: [] [] [2025-01-22 22:42:40,601]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Bronze.siddhiql
+TID: [] [] [2025-01-22 22:42:40,608]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Gold.siddhiql
+TID: [] [] [2025-01-22 22:42:40,616]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Silver.siddhiql
+TID: [] [] [2025-01-22 22:42:40,624]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Unauthenticated.siddhiql
+TID: [] [] [2025-01-22 22:42:40,632]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,634]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0.xml
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0_2.xml
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0-2
+TID: [] [] [2025-01-22 22:42:40,635]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:42:40,637]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : RequestPreProcessorExecutionPlan.siddhiql
+TID: [] [] [2025-01-22 22:42:40,638]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_10PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,715]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,715]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,715]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin
+TID: [] [] [2025-01-22 22:42:40,715]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_20PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,753]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,753]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,753]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin
+TID: [] [] [2025-01-22 22:42:40,753]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_50PerMin.siddhiql
+TID: [] [] [2025-01-22 22:42:40,791]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,791]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,791]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin
+TID: [] [] [2025-01-22 22:42:40,791]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_10KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:42:40,831]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,831]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,831]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default
+TID: [] [] [2025-01-22 22:42:40,831]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_20KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:42:40,870]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,870]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,870]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default
+TID: [] [] [2025-01-22 22:42:40,870]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_50KPerMin_defualt.siddhiql
+TID: [] [] [2025-01-22 22:42:40,909]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,909]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,909]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default
+TID: [] [] [2025-01-22 22:42:40,909]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Bronze.siddhiql
+TID: [] [] [2025-01-22 22:42:40,940]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,940]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,940]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze
+TID: [] [] [2025-01-22 22:42:40,940]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Gold.siddhiql
+TID: [] [] [2025-01-22 22:42:40,975]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,975]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:40,975]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold
+TID: [] [] [2025-01-22 22:42:40,975]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Silver.siddhiql
+TID: [] [] [2025-01-22 22:42:41,010]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,010]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,010]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver
+TID: [] [] [2025-01-22 22:42:41,010]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Unauthenticated.siddhiql
+TID: [] [] [2025-01-22 22:42:41,044]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,044]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,044]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated
+TID: [] [] [2025-01-22 22:42:41,044]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,046]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: throttleEventReceiver.xml
+TID: [] [] [2025-01-22 22:42:41,049]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleEventReceiver
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleEventReceiver
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver undeployed successfully: throttleWSO2EventReceiver.xml
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleWSO2EventReceiver
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleWSO2EventReceiver
+TID: [] [] [2025-01-22 22:42:41,050]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : RequestPreProcessorExecutionPlan.siddhiql
+TID: [] [] [2025-01-22 22:42:41,057]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,057]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:41,057]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : requestPreProcessorExecutionPlan
+TID: [] [] [2025-01-22 22:42:41,057]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:42:43,817]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/accountrecoveryendpoint]
+TID: [] [] [2025-01-22 22:42:44,772]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/admin]
+TID: [] [] [2025-01-22 22:42:45,103]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/am#sample#calculator#v1.war]
+TID: [] [] [2025-01-22 22:42:45,410]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/am#sample#pizzashack#v1.war]
+TID: [] [] [2025-01-22 22:42:46,838]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#admin.war]
+TID: [] [] [2025-01-22 22:42:47,536]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/devops/v0].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#devops#v0.war]
+TID: [] [] [2025-01-22 22:42:48,351]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/devportal].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#devportal.war]
+TID: [] [] [2025-01-22 22:42:49,069]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/gateway/v2].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#gateway#v2.war]
+TID: [] [] [2025-01-22 22:42:49,992]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#publisher.war]
+TID: [] [] [2025-01-22 22:42:50,724]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/service-catalog/v1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#am#service-catalog#v1.war]
+TID: [] [] [2025-01-22 22:42:51,317]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/auth/v1.1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#auth#v1.1.war]
+TID: [] [] [2025-01-22 22:42:51,915]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#consent-mgt#v1.0.war]
+TID: [] [] [2025-01-22 22:42:52,492]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#oauth2#dcr#v1.1.war]
+TID: [] [] [2025-01-22 22:42:53,064]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#oauth2#v1.0.war]
+TID: [] [] [2025-01-22 22:42:53,645]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#recovery#v0.9.war]
+TID: [] [] [2025-01-22 22:42:54,244]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/api#identity#user#v1.0.war]
+TID: [] [] [2025-01-22 22:42:57,106]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/authenticationendpoint]
+TID: [] [] [2025-01-22 22:42:57,803]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.17].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/client-registration#v0.17.war]
+TID: [] [] [2025-01-22 22:42:58,527]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/devportal].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/devportal]
+TID: [] [] [2025-01-22 22:42:59,142]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/internal/data/v1].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/internal#data#v1.war]
+TID: [] [] [2025-01-22 22:42:59,766]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/keymanager-operations].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/keymanager-operations.war]
+TID: [] [] [2025-01-22 22:43:00,833]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/oauth2.war]
+TID: [] [] [2025-01-22 22:43:01,495]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher].File[/home/chostim/wso2/wso2am-4.4.0/repository/deployment/server/webapps/publisher]
+TID: [] [] [2025-01-22 22:43:01,496]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [] [] [2025-01-22 22:43:01,497]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [] [] [2025-01-22 22:43:01,497]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [] [] [2025-01-22 22:43:01,533]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: WebSocketInboundEndpoint
+TID: [] [] [2025-01-22 22:43:01,805]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener starting on port 9099
+TID: [] [] [2025-01-22 22:43:01,805]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: SecureWebSocketEP
+TID: [] [] [2025-01-22 22:43:01,809]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty SSL Listener starting on port 8099
+TID: [] [] [2025-01-22 22:43:01,809]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: WebhookServer
+TID: [] [] [2025-01-22 22:43:01,856]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through WebhookServer Listener started on 0.0.0.0:9021
+TID: [] [] [2025-01-22 22:43:01,856]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: SecureWebhookServer
+TID: [] [] [2025-01-22 22:43:01,912]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through SecureWebhookServer Listener started on 0.0.0.0:8021
+TID: [] [] [2025-01-22 22:43:01,915]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [] [] [2025-01-22 22:43:02,553]  INFO {org.wso2.carbon.apimgt.common.jms.factory.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [] [] [2025-01-22 22:43:02,553]  INFO {org.wso2.carbon.apimgt.common.jms.factory.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [] [] [2025-01-22 22:43:02,598]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 8099
+TID: [] [] [2025-01-22 22:43:02,598]  INFO {org.wso2.carbon.inbound.endpoint.protocol.http.management.HTTPEndpointManager} - Listener is already started for port : 8021
+TID: [] [] [2025-01-22 22:43:02,599]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 9099
+TID: [] [] [2025-01-22 22:43:02,599]  INFO {org.wso2.carbon.inbound.endpoint.protocol.http.management.HTTPEndpointManager} - Listener is already started for port : 9021
+TID: [] [] [2025-01-22 22:43:02,742]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Activating Andes Message Broker Engine...
+TID: [] [] [2025-01-22 22:43:03,153]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP port 5672
+TID: [] [] [2025-01-22 22:43:03,158]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8672
+TID: [] [] [2025-01-22 22:43:03,206]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - AMQP Host Address : 0.0.0.0 Port : 5672
+TID: [] [] [2025-01-22 22:43:03,206]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Successfully connected to AMQP server on port 5672
+TID: [] [] [2025-01-22 22:43:03,206]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - WSO2 Message Broker is started.
+TID: [] [] [2025-01-22 22:43:03,355]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+TID: [] [] [2025-01-22 22:43:03,356]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+TID: [] [] [2025-01-22 22:43:03,443]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupObserver} -  Thrift Data Receiver is disabled.
+TID: [] [] [2025-01-22 22:43:03,501]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Starting Pass-through HTTP Listener...
+TID: [] [] [2025-01-22 22:43:03,520]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8280
+TID: [] [] [2025-01-22 22:43:03,521]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Starting Pass-through HTTPS Listener...
+TID: [] [] [2025-01-22 22:43:03,537]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8243
+TID: [] [] [2025-01-22 22:43:03,634]  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/chostim/wso2/wso2am-4.4.0/repository/resources/security/wso2carbon.jks] using alias [wso2carbon] with trust store [/home/chostim/wso2/wso2am-4.4.0/repository/resources/security/client-truststore.jks]
+TID: [] [] [2025-01-22 22:43:03,731]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} - Task service starting in STANDALONE mode...
+TID: [] [] [2025-01-22 22:43:03,766]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} - Successfully Initialized Eventing on Registry
+TID: [] [] [2025-01-22 22:43:03,876]  INFO {org.wso2.carbon.core.init.JMXServerManager} - JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi
+TID: [] [] [2025-01-22 22:43:04,122]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2025-01-22 22:43:04,571]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : notificationJMSPublisher initialized
+TID: [] [] [2025-01-22 22:43:04,713]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : keymgtEventJMSEventPublisher initialized
+TID: [] [] [2025-01-22 22:43:05,204]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the notification topic...
+TID: [] [] [2025-01-22 22:43:05,205]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the keyManager topic...
+TID: [] [] [2025-01-22 22:43:05,206]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the notification topic...
+TID: [] [] [2025-01-22 22:43:05,228]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#notification was successful!
+TID: [] [] [2025-01-22 22:43:05,228]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#keyManager was successful!
+TID: [] [] [2025-01-22 22:43:05,228]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#notification was successful!
+TID: [] [] [2025-01-22 22:43:05,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,378]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : cacheInvalidationJMSPublisher initialized
+TID: [] [] [2025-01-22 22:43:05,396]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_sub_Silver.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,396]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Silver.siddhiql
+TID: [] [] [2025-01-22 22:43:05,398]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_resource_50KPerMin_defualt.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,398]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_50KPerMin_defualt.siddhiql
+TID: [] [] [2025-01-22 22:43:05,398]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_sub_Bronze.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,398]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Bronze.siddhiql
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_resource_20KPerMin_default.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_20KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_sub_Unauthenticated.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Unauthenticated.siddhiql
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_resource_10KPerMin_default.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,399]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_resource_10KPerMin_default.siddhiql
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_sub_Gold.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_sub_Gold.siddhiql
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_app_10PerMin.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_10PerMin.siddhiql
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_app_20PerMin.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,400]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_20PerMin.siddhiql
+TID: [] [] [2025-01-22 22:43:05,401]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - carbon.super_app_50PerMin.siddhiql is deleted from the file system
+TID: [] [] [2025-01-22 22:43:05,401]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution Plan was undeployed successfully : carbon.super_app_50PerMin.siddhiql
+TID: [] [] [2025-01-22 22:43:05,431]  INFO {org.wso2.carbon.apimgt.gateway.InMemoryAPIDeployer} - Deploying synapse artifacts of _JwksEndpoint_
+TID: [] [] [2025-01-22 22:43:05,451]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the throttleData topic...
+TID: [] [] [2025-01-22 22:43:05,454]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the tokenRevocation topic...
+TID: [] [] [2025-01-22 22:43:05,456]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the cacheInvalidation topic...
+TID: [] [] [2025-01-22 22:43:05,462]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the notification topic...
+TID: [] [] [2025-01-22 22:43:05,463]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the throttleData topic...
+TID: [] [] [2025-01-22 22:43:05,464]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting jms topic consumer thread for the asyncWebhooksData topic...
+TID: [] [] [2025-01-22 22:43:05,464]  INFO {org.apache.synapse.api.API} - {api:_JwksEndpoint_} Initializing API: _JwksEndpoint_
+TID: [] [] [2025-01-22 22:43:05,469]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _JwksEndpoint_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:43:05,472]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#throttleData was successful!
+TID: [] [] [2025-01-22 22:43:05,474]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,474]  INFO {org.wso2.carbon.apimgt.gateway.InMemoryAPIDeployer} - Deploying synapse artifacts of _HealthCheckAPI_
+TID: [] [] [2025-01-22 22:43:05,488]  INFO {org.apache.synapse.api.API} - {api:_HealthCheckAPI_} Initializing API: _HealthCheckAPI_
+TID: [] [] [2025-01-22 22:43:05,489]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _HealthCheckAPI_ was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 22:43:05,491]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#tokenRevocation was successful!
+TID: [] [] [2025-01-22 22:43:05,492]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,493]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#cacheInvalidation was successful!
+TID: [] [] [2025-01-22 22:43:05,494]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,495]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#asyncWebhooksData was successful!
+TID: [] [] [2025-01-22 22:43:05,495]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,498]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#notification was successful!
+TID: [] [] [2025-01-22 22:43:05,498]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#throttleData was successful!
+TID: [] [] [2025-01-22 22:43:05,498]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,499]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [] [] [2025-01-22 22:43:05,509]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : ga-config-key was added to the Synapse configuration successfully
+TID: [-1234] [internal/data/v1] [2025-01-22 22:43:05,537]  INFO {org.wso2.carbon.apimgt.impl.gatewayartifactsynchronizer.RuntimeArtifactGeneratorUtil} - No API Artifacts
+TID: [] [] [2025-01-22 22:43:05,543]  INFO {org.wso2.carbon.apimgt.gateway.listeners.GatewayStartupListener} - Synapse Artifacts deployed Successfully in the Gateway
+TID: [] [] [2025-01-22 22:43:05,573]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2025-01-22 22:43:05,575]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_Gold saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,590]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 API Manager-4.4.0
+TID: [] [] [2025-01-22 22:43:05,590]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 53 sec
+TID: [] [] [2025-01-22 22:43:05,613]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,613]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,613]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold
+TID: [] [] [2025-01-22 22:43:05,631]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_Silver saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,661]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,661]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,661]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver
+TID: [] [] [2025-01-22 22:43:05,672]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_Bronze saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,706]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,706]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,706]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze
+TID: [] [] [2025-01-22 22:43:05,717]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_Unauthenticated saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,745]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,745]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,745]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated
+TID: [] [] [2025-01-22 22:43:05,762]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_DefaultSubscriptionless saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,792]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,792]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,792]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_DefaultSubscriptionless
+TID: [] [] [2025-01-22 22:43:05,804]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncGold saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,822]  INFO {org.wso2.carbon.apimgt.gateway.listeners.GatewayStartupListener} - Gateway policy artifacts deployed Successfully in the Gateway
+TID: [] [] [2025-01-22 22:43:05,837]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,838]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,838]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncGold
+TID: [] [] [2025-01-22 22:43:05,846]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncSilver saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,875]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,875]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,875]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncSilver
+TID: [] [] [2025-01-22 22:43:05,887]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncBronze saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,918]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,918]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,918]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncBronze
+TID: [] [] [2025-01-22 22:43:05,926]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncDefaultSubscriptionless saved in the filesystem
+TID: [] [] [2025-01-22 22:43:05,958]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,958]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:05,958]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncDefaultSubscriptionless
+TID: [] [] [2025-01-22 22:43:05,976]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AIGold saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,008]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,008]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,008]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AIGold
+TID: [] [] [2025-01-22 22:43:06,018]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AISilver saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,043]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,043]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,043]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AISilver
+TID: [] [] [2025-01-22 22:43:06,053]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AIBronze saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,081]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,081]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,081]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AIBronze
+TID: [] [] [2025-01-22 22:43:06,091]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncWHGold saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,116]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,116]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,116]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncWHGold
+TID: [] [] [2025-01-22 22:43:06,122]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://localhost:9443/carbon/
+TID: [] [] [2025-01-22 22:43:06,122]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Developer Portal Default Context : https://localhost:9443/devportal
+TID: [] [] [2025-01-22 22:43:06,122]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Publisher Default Context : https://localhost:9443/publisher
+TID: [] [] [2025-01-22 22:43:06,124]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncWHSilver saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,146]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,146]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,146]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncWHSilver
+TID: [] [] [2025-01-22 22:43:06,153]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_sub_AsyncWHBronze saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,175]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,175]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,175]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_AsyncWHBronze
+TID: [] [] [2025-01-22 22:43:06,191]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_app_50PerMin saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,212]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,212]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,212]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin
+TID: [] [] [2025-01-22 22:43:06,220]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_app_20PerMin saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : keyManager of type topic for listener Siddhi-JMS-Consumer#keyManager
+TID: [] [] [2025-01-22 22:43:06,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification
+TID: [] [] [2025-01-22 22:43:06,232]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification
+TID: [] [] [2025-01-22 22:43:06,241]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,241]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,241]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin
+TID: [] [] [2025-01-22 22:43:06,248]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_app_10PerMin saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,271]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,271]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,271]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin
+TID: [] [] [2025-01-22 22:43:06,285]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_resource_50KPerMin_default saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,306]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:43:06,306]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,306]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default
+TID: [] [] [2025-01-22 22:43:06,318]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_resource_20KPerMin_default saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,338]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:43:06,338]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,338]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default
+TID: [] [] [2025-01-22 22:43:06,352]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: carbon.super_resource_10KPerMin_default saved in the filesystem
+TID: [] [] [2025-01-22 22:43:06,373]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [] [] [2025-01-22 22:43:06,373]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [] [] [2025-01-22 22:43:06,373]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default
+TID: [] [] [2025-01-22 22:43:06,474]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData
+TID: [] [] [2025-01-22 22:43:06,492]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : tokenRevocation of type topic for listener Siddhi-JMS-Consumer#tokenRevocation
+TID: [] [] [2025-01-22 22:43:06,494]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : cacheInvalidation of type topic for listener Siddhi-JMS-Consumer#cacheInvalidation
+TID: [] [] [2025-01-22 22:43:06,495]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : asyncWebhooksData of type topic for listener Siddhi-JMS-Consumer#asyncWebhooksData
+TID: [] [] [2025-01-22 22:43:06,499]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification
+TID: [] [] [2025-01-22 22:43:06,499]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Started to listen on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData
+TID: [] [] [2025-01-22 22:43:13,134]  INFO {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} - Starting polling event receivers
+TID: [] [] [2025-01-22 22:52:28,453]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - PassThroughHttpSender reloading SSL Config..
+TID: [] [] [2025-01-22 22:52:28,489]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - customSSLProfiles configuration is loaded from path: /home/chostim/wso2/wso2am-4.4.0/repository/resources/security/sslprofiles.xml
+TID: [] [] [2025-01-22 22:52:28,489]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Loading custom SSL profiles for the HTTPS sender
+TID: [] [] [2025-01-22 22:52:28,511]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Custom SSL profiles initialized for 1 servers
+TID: [] [] [2025-01-22 22:52:28,511]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Pass-through HTTPS Sender updated with Dynamic Configuration Updates ...
+TID: [] [] [2025-01-22 22:52:28,563]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - PassThroughHttpListener reloading SSL Config..
+TID: [] [] [2025-01-22 22:52:28,586]  INFO {org.apache.synapse.transport.nhttp.config.ServerConnFactoryBuilder} - SSLProfile configuration is loaded from path: /home/chostim/wso2/wso2am-4.4.0/repository/resources/security/listenerprofiles.xml
+TID: [] [] [2025-01-22 22:52:28,636]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8243
+TID: [] [] [2025-01-22 22:52:28,636]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - HTTPS Reloaded
+TID: [] [] [2025-01-22 23:13:52,963]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [-1234] [internal/data/v1] [2025-01-22 23:13:58,143]  INFO {org.wso2.carbon.apimgt.impl.importexport.utils.CommonUtil} - Creation of folder is successful. Directory Name : vehicles-1.0.0
+TID: [-1234] [internal/data/v1] [2025-01-22 23:13:58,143]  INFO {org.wso2.carbon.apimgt.impl.importexport.utils.CommonUtil} - Creation of folder is successful. Directory Name : Definitions
+TID: [] [] [2025-01-22 23:13:58,301]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b0b3272c-176a-4351-a021-e863320c1ee9 was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 23:13:58,306]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : vehicles--v1.0.0_APIproductionEndpoint was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 23:13:58,306]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : vehicles--v1.0.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 23:13:58,417]  INFO {org.apache.synapse.api.API} - {api:vehicles:v1.0.0} Initializing API: vehicles:v1.0.0
+TID: [] [] [2025-01-22 23:13:58,427]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : vehicles:v1.0.0 was added to the Synapse configuration successfully
+TID: [] [] [2025-01-22 23:14:22,445]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2025-01-22 23:14:22,489]  WARN {org.apache.synapse.transport.http.access.AccessConfiguration} - Error loading properties from file: access-log.properties
+TID: [] [] [2025-01-22 23:14:22,493]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [] [] [2025-01-22 23:14:22,494]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [] [] [2025-01-22 23:14:22,585]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+TID: [] [] [2025-01-22 23:14:22,623]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2025-01-22 23:27:50,178]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2025-01-22 23:27:52,696]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2025-01-22 23:29:34,086]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown

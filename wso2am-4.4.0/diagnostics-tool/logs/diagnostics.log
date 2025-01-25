@@ -1,0 +1,19 @@
+2025-01-25 01:40:14 ServerProcess [INFO] Server Process ID: 105582
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Version: 4.4.0
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Update Level: null
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Java Version: 17.0.13
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Java Home: /usr/lib/jvm/java-17-openjdk-amd64
+2025-01-25 01:40:14 DiagnosticsApp [INFO] OS Name: Linux
+2025-01-25 01:40:14 DiagnosticsApp [INFO] OS Version: 6.1.0-28-amd64
+2025-01-25 01:40:14 DiagnosticsApp [INFO] OS Architecture: amd64
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Diagnostic App Home: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-01-25 01:40:14 LogWatcher [INFO] Initiating LogWatcher for file: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-25 01:40:14 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-25 01:40:14 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-01-25 01:40:14 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-01-25 02:29:01 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-01-25 02:29:01 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections

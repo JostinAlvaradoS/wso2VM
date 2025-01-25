@@ -1,0 +1,22 @@
+2025-01-22 22:42:42 ServerProcess [INFO] Server Process ID: 81266
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Version: 4.4.0
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Update Level: null
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Java Version: 17.0.13
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Java Home: /usr/lib/jvm/java-17-openjdk-amd64
+2025-01-22 22:42:42 DiagnosticsApp [INFO] OS Name: Linux
+2025-01-22 22:42:42 DiagnosticsApp [INFO] OS Version: 6.1.0-28-amd64
+2025-01-22 22:42:42 DiagnosticsApp [INFO] OS Architecture: amd64
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Diagnostic App Home: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-01-22 22:42:42 LogWatcher [INFO] Initiating LogWatcher for file: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-22 22:42:42 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-22 22:42:42 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-01-22 22:42:42 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-01-22 23:14:22 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-01-22 23:14:22 ServerInfo [INFO] ServerInfo executed successfully.
+2025-01-22 23:14:27 ZipFileExecutor [INFO] Zipping the folder at /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/temp/2025-01-22_23:14:22.572
+2025-01-22 23:14:27 ZipFileExecutor [INFO] Diagnosis Dumped in :/home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/data/81266_2025-01-22_23:14:22.572.zip
+2025-01-22 23:27:58 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 3, threshold: 2.0

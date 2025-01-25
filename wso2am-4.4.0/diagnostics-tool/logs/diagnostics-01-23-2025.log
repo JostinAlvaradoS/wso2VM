@@ -1,0 +1,120 @@
+2025-01-23 00:17:20 LogWatcher [INFO] Log file has been rotated. Reopening the file /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-23 00:25:58 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.1.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:626) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:133) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:904) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getMemoryUsage(JMXDataRetriever.java:56) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.watchers.MemoryWatcher.run(MemoryWatcher.java:58) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:507) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:287) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:620) ~[?:?]
+	... 15 more
+2025-01-23 00:25:58 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.1.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:626) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:133) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:904) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getCpuUsage(JMXDataRetriever.java:51) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.watchers.CPUWatcher.run(CPUWatcher.java:58) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:507) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:287) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:620) ~[?:?]
+	... 15 more
+2025-01-23 07:56:39 ServerProcess [INFO] Server Process ID: 92103
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Version: 4.4.0
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Update Level: null
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Java Version: 17.0.13
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Java Home: /usr/lib/jvm/java-17-openjdk-amd64
+2025-01-23 07:56:39 DiagnosticsApp [INFO] OS Name: Linux
+2025-01-23 07:56:39 DiagnosticsApp [INFO] OS Version: 6.1.0-28-amd64
+2025-01-23 07:56:39 DiagnosticsApp [INFO] OS Architecture: amd64
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Diagnostic App Home: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-01-23 07:56:39 LogWatcher [INFO] Initiating LogWatcher for file: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 07:56:39 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 07:56:39 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-01-23 07:56:39 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-01-23 08:53:27 ServerProcess [INFO] Server Process ID: 95119
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Version: 4.4.0
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Update Level: null
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Java Version: 17.0.13
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Java Home: /usr/lib/jvm/java-17-openjdk-amd64
+2025-01-23 08:53:27 DiagnosticsApp [INFO] OS Name: Linux
+2025-01-23 08:53:27 DiagnosticsApp [INFO] OS Version: 6.1.0-28-amd64
+2025-01-23 08:53:27 DiagnosticsApp [INFO] OS Architecture: amd64
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Diagnostic App Home: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-01-23 08:53:27 LogWatcher [INFO] Initiating LogWatcher for file: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 08:53:27 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 08:53:27 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-01-23 08:53:27 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-01-23 09:43:00 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-01-23 09:43:00 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-01-23 22:00:59 ServerProcess [INFO] Server Process ID: 98957
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Version: 4.4.0
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Update Level: null
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Java Version: 17.0.13
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Java Home: /usr/lib/jvm/java-17-openjdk-amd64
+2025-01-23 22:00:59 DiagnosticsApp [INFO] OS Name: Linux
+2025-01-23 22:00:59 DiagnosticsApp [INFO] OS Version: 6.1.0-28-amd64
+2025-01-23 22:00:59 DiagnosticsApp [INFO] OS Architecture: amd64
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Diagnostic App Home: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-01-23 22:00:59 LogWatcher [INFO] Initiating LogWatcher for file: /home/chostim/wso2/wso2am-4.4.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 22:00:59 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-01-23 22:00:59 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-01-23 22:00:59 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-01-23 22:06:14 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-01-23 22:06:14 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
